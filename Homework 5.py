@@ -6,12 +6,22 @@
 # 2. Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
 s = 'AAADDDGGGGGEE'
 print(s)
-count = 1
-for i in range(len(s)-1):
-            if s[i]==s[i+1]:
-                count+=1
-            else:
-                print(count,s[i])
-                count=1
-print(count,s[i])
+# count = 1
+# for i in range(len(s)-1):
+#             if s[i]==s[i+1]:
+#                 count+=1
+#             else:
+#                 print(count,s[i])
+#                 count=1
+# print(count,s[i])
+
+# count = 1
+# dictionary = {}
+
+# for i in range(len(s)):
+#             if s[i] in dictionary.keys():
+#                 dictionary[s[i]] = dictionary[s[i]] + 1
+#             else:
+#                 dictionary[s[i]] = 1
+# print(dictionary)
 
