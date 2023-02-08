@@ -1,11 +1,11 @@
-# Дана функция f(x) = -8x^2+3x+17
+# Дана функция f(x) = -12x^4*sin(cos(x)) - 18x^3+5x^2 + 10x - 30
 
 # 1 Опоределить корни
 
 from sympy import *
 
 x = Symbol('x')
-func=-8*x**2+3*x+17
+func=
 y=solve(func)
 x1=float(y[0])
 x2=float(y[1])
@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 list_y=[]
 for i in range(-5,6):
     x=i
-    y=-8*x**2+3*x+17
+    y=
     list_y.append(y)
 print(list_y)
 plt.plot(range(-5,6),[0,0,0,0,0,0,0,0,0,0,0])
@@ -37,7 +37,7 @@ plt.plot(range(-5,6),list_y)
 corni=solve(fd)
 top=corni[0]
 x=top
-y=-8*x**2+3*x+17
+y=-
 print(top,y)
 
 # 6 Определить промежутки, на котором f > 0
