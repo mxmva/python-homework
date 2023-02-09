@@ -183,3 +183,16 @@
 # print(summ)
 # Альтернативное решение
 # print(sum(int(i) for i in input().split()))
+
+strr=[int(i)for i in input().split()]
+print(strr)
+if len(strr)==1:
+      print(strr)
+else: 
+    for i in range(len(strr)):
+        if i==0:
+              print((strr[1]+ strr[-1]),end=' ')
+        elif i==len(strr)-1:
+             print((strr[i-1]+ strr[0]))
+        else:
+             print((strr[i-1]+strr[i+1]),end=' ')
